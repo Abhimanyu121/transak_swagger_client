@@ -1,9 +1,10 @@
 part of swagger.api;
 
 class OrdersApi {
-  final ApiClient apiClient;
+  final TransakClient apiClient;
 
-  OrdersApi([ApiClient apiClient]) : apiClient = apiClient ?? defaultApiClient;
+  OrdersApi([TransakClient apiClient])
+      : apiClient = apiClient ?? defaultApiClient;
 
   /// 5. Cancel existing order
   ///

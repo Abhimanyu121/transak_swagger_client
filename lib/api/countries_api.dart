@@ -1,9 +1,9 @@
 part of swagger.api;
 
 class CountriesApi {
-  final ApiClient apiClient;
+  final TransakClient apiClient;
 
-  CountriesApi([ApiClient apiClient])
+  CountriesApi([TransakClient apiClient])
       : apiClient = apiClient ?? defaultApiClient;
 
   /// 1. Get supported countries

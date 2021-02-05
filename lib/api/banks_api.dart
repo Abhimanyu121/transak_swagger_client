@@ -1,9 +1,10 @@
 part of swagger.api;
 
 class BanksApi {
-  final ApiClient apiClient;
+  final TransakClient apiClient;
 
-  BanksApi([ApiClient apiClient]) : apiClient = apiClient ?? defaultApiClient;
+  BanksApi([TransakClient apiClient])
+      : apiClient = apiClient ?? defaultApiClient;
 
   /// 2. Add bank details
   ///

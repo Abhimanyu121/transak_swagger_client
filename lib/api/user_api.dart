@@ -1,9 +1,10 @@
 part of swagger.api;
 
 class UserApi {
-  final ApiClient apiClient;
+  final TransakClient apiClient;
 
-  UserApi([ApiClient apiClient]) : apiClient = apiClient ?? defaultApiClient;
+  UserApi([TransakClient apiClient])
+      : apiClient = apiClient ?? defaultApiClient;
 
   /// 1. Login or Signup
   ///

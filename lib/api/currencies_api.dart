@@ -1,9 +1,9 @@
 part of swagger.api;
 
 class CurrenciesApi {
-  final ApiClient apiClient;
+  final TransakClient apiClient;
 
-  CurrenciesApi([ApiClient apiClient])
+  CurrenciesApi([TransakClient apiClient])
       : apiClient = apiClient ?? defaultApiClient;
 
   /// 1. Get crypto currencies
