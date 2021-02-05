@@ -20,8 +20,8 @@ name: swagger
 version: 1.0.0
 description: Swagger API client
 dependencies:
-  swagger:
-    git: https://github.com//.git
+  transak_swagger_client:
+    git: https://github.com/Abhimanyu121/transak_swagger_client.git
       version: 'any'
 ```
 
