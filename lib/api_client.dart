@@ -9,7 +9,7 @@ class QueryParam {
 
 class TransakClient {
   String basePath;
-  var client = new BrowserClient();
+  var client = new http.Client();
 
   Map<String, String> _defaultHeaderMap = {};
   Map<String, Authentication> _authentications = {};
