@@ -75,5 +75,4 @@ part 'model/user_v2_response_kyc_l1.dart';
 part 'model/user_v2_response_kyc_l2.dart';
 part 'model/user_v2_response_last_login.dart';
 
-
-ApiClient defaultApiClient = new ApiClient();
+TransakClient defaultApiClient = new TransakClient();
